@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body, html{
+    height: 100%;
+}
+
 body{
     background: url(../images/bg.png);
 }
@@ -24,7 +28,6 @@ p{
 header{
     background-color: #fff;
     height: 70px;
-    margin-bottom: 20px;
     border-bottom: 1.5px solid #cccccc;
 }
 
@@ -51,10 +54,20 @@ ul{
 
 ul li{
     display: inline-block;
+    margin-right: 15px;
 }
+
+ul li:last-child{
+    margin-right: 0;
+}
+
 
 ul li a{
     text-decoration: none;
+}
+
+ul li a:hover{
+    color: #4aaaa5;
 }
 
 img{
@@ -67,16 +80,15 @@ img{
 #cnt-container{
     background-color: #fff;
     padding: 30px 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     border: 1px solid #cccccc;
+    min-height: calc(100% - 196px);
 }
 
-#cnt-container:after {
-    content: ".";
+#cnt-container::after{
+    content: "";
     display: block;
-    height: 0;
     clear: both;
-    visibility: hidden;
 }
 
 #cnt-container section h1{
@@ -85,20 +97,19 @@ img{
 }
 
 #cnt-container section hr{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    border: 1.5px solid #e7e6e7;
 }
 
 footer{
     position: sticky;
-    left: 0;
-    bottom: 0;
     background-color: #666666;
     width: 100%;
     text-align: center;
     border-top: 6px solid #4aaaa5;
 }
 
-footer p{
+footer div p{
     line-height: 60px;
     color: #cccccc;
 }
