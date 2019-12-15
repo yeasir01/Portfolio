@@ -16,7 +16,7 @@ h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-p, a{
+p, a, #button, label{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -81,8 +81,8 @@ img{
     background-color: #fff;
     padding: 30px 30px;
     margin: 30px auto;
-    border: 1px solid #cccccc;
-    min-height: calc(100% - 196px);
+    border: 1px solid #dddddd;
+    min-height: calc(100% - 198px);
 }
 
 #cnt-container::after{
@@ -106,10 +106,47 @@ footer{
     background-color: #666666;
     width: 100%;
     text-align: center;
-    border-top: 6px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 footer div p{
     line-height: 60px;
     color: #cccccc;
+}
+
+.form label{
+    line-height: 30px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #e7e6e7;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    line-height: 26px;
+    font-size: 16px;
+    border: 1px solid #e7e6e7;
+}
+
+#button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+}
+
+#button:hover{
+    background-color: #409490;
+    cursor: pointer;
 }
