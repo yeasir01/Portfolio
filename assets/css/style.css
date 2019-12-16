@@ -150,3 +150,34 @@ textarea{
     background-color: #409490;
     cursor: pointer;
 }
+
+.gallery{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: #666666;
+    overflow: hidden;
+    margin: 0 30px 30px 0;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    transition: linear .2s;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+.gallery p{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background-color: #409490;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+}
