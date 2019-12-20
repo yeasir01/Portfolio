@@ -13,12 +13,12 @@ h1, h2{
 }
 
 p, a, #button, label{
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
     color: #777777;
 }
 
 p{
-    line-height: 30px;
+    line-height: 2;
 }
 
 header{
@@ -71,7 +71,7 @@ img{
     width: 200px;
     height: auto;
     float: left;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
 }
 
 #cnt-container{
@@ -82,7 +82,7 @@ img{
     min-height: calc(100% - 198px);
 }
 
-#cnt-container::after{
+#cnt-container:before, #cnt-container:after{
     content: "";
     display: block;
     clear: both;
@@ -112,7 +112,7 @@ footer div p{
 }
 
 .form label{
-    line-height: 30px;
+    line-height: 2;
 }
 
 input{
