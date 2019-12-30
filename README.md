@@ -6,7 +6,7 @@ A simple 3 page portfolio website to showcase my abilities. This project is dyna
 - CSS
 
 ### Platform
-- Any Web Browser
+- Most Web Browser
 
 ### Responsive?
 - No
