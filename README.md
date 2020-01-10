@@ -1,5 +1,5 @@
 ## Portfolio
-A simple 3 page portfolio website to showcase my abilities. This project is dynamic, it will continue to advance as I acquire new skills.
+A simple 3 page portfolio website to showcase my abilities. This project is dynamic, it will continue to advance as I acquire new skills. Updated css with media querries 01/10/2020 to make site responsive.
 
 ### Technology Used
 - HTML
@@ -9,7 +9,7 @@ A simple 3 page portfolio website to showcase my abilities. This project is dyna
 - Most Web Browser
 
 ### Responsive?
-- No
+- Yes
 
 ### Project Version
 - 1
